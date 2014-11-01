@@ -140,7 +140,8 @@ body {
 		}
 	}
 }
-.site-logo {
+.site-logo,
+.post-logo {
 	img {
 		width: 100px;
 		height: 100px;
@@ -165,10 +166,11 @@ body {
 	@include animation-duration(1s);
     @include animation-delay(.75s);
 	a { 
-		color: $black; 
+		color: $site-title-color; 
 	}
 }
 .site-description {
+	color: $site-description-color;
 	margin-top: 0;
 	font-family: $alt-font;
 	@include font-size(16);
