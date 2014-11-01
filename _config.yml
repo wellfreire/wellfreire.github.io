@@ -1,9 +1,11 @@
 # Site wide configuration
 
 title: Well Freire
+subtitle: Blog
 locale: pt_BR
 timezone: America/Sao_Paulo
-description: simples web log
+description: simples arquivo na web
+#a simple web-based archive
 logo: bio-photo.jpg
 search: true
 url: 
