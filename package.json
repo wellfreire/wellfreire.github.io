@@ -1,13 +1,10 @@
 {
-  "name": "so-simple-theme",
-  "author": "Michael Rose <michael@mademistakes.com>",
-  "homepage": "http://mmistakes.github.io/so-simple-theme/",
+  "name": "wellfreire.github.io",
+  "author": "Wellington Freire <wellfreire1@gmail.com>",
+  "homepage": "http://wellfreire.github.io",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mmistakes/so-simple-theme.git"
-  },
-  "bugs": {
-    "url": "https://github.com/mmistakes/so-simple-theme/issues"
+    "url": "git://github.com/wellfreire/wellfreire.github.io.git"
   },
   "engines": {
     "node": ">= 0.10.0"
