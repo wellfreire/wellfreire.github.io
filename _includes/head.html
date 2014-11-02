@@ -17,6 +17,16 @@
 <link href="{{ site.url }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 {% if site.owner.google.plus %}<link rel="author" href="http://plus.google.com/+{{ site.owner.google.plus }}?rel=author">{% endif %}
 
+{% if page.layout == 'post' %}
+    {% assign posts=site.posts | where:"name", page.name %}
+    {% for post in posts %}
+      {% if post.lang != page.lang %}
+        {% assign alternate_url = page.url | replace_first: page.lang, post.lang %}
+        <link rel="alternate" hreflang="{{post.lang}}" href="{{post.url}}" />
+      {% endif %}
+    {% endfor %}
+{% endif %}
+
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
