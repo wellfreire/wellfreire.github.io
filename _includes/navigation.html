@@ -18,14 +18,14 @@
 
 {% if site.search %}{% include site-search.html %}{% endif %}
 
-{% if page.image.feature %}<header class="masthead">
+<header class="masthead">
+{% if page.image.feature %}
 	{% if site.logo != null %}
 		<div class="wrap">
 			<a href="{{ site.url }}" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated bounceInDown"></a>
 		</div>
 	{% endif %}
-</header><!-- /.masthead -->
-{% else %}<header class="masthead">
+{% else %}
 	<div class="wrap">
         {% if site.logo != null %}
     		<a href="{{ site.url }}" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated fadeInUp"></a>
@@ -36,6 +36,7 @@
         <h1 class="site-subtitle animated fadeIn"><a href="{{ site.url }}"></a></h1>
 		<h2 class="site-description animated fadeIn" itemprop="description">{{ site.description }}</h2>
 	</div>
-</header><!-- /.masthead -->{% endif %}
+{% endif %}
+</header><!-- /.masthead -->
 
 <div class="js-menu-screen menu-screen"></div>

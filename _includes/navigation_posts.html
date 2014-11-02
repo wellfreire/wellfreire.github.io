@@ -10,6 +10,16 @@
                 <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
             {% endfor %}
             {% if site.search %}<li class="dosearch"><span><i class="fa fa-search"></i> Search</span></li>{% endif %}
+
+<!--             {% assign lang_count = site.posts | where:"name", page.name %}
+            {% if lang_count.size == 2 %}
+                {% capture lang_suffix %}{% if page.lang == 'en' %}pt{% else %}en{% endif %}{% endcapture %}
+                {% capture lang_label %}{% if page.lang == 'en' %}ver em português{% else %}read in english{% endif %}{% endcapture %}
+                {% assign switch_lang_url = page.url | replace_first: page.lang, lang_suffix %}
+                <a href="{{ switch_lang_url }}">
+                  <img src="{{ site.url }}/images/ico-lang_{{ lang_suffix }}.png">&nbsp;&nbsp;{{ lang_label }}
+                </a>
+            {% endif %} -->
         </ul>
     </nav>
 </div><!-- /.navigation-wrapper -->
@@ -18,21 +28,22 @@
 
 {% if site.search %}{% include site-search.html %}{% endif %}
 
-{% if page.image.feature %}<header class="masthead">
+<header class="masthead">
+{% if page.image.feature %}
     {% if page.logo != null %}
-    <div class="wrap post-logo">
-    <img src="{{ site.url }}/images/{{ page.logo }}" width="200" height="200" alt="" class="animated bounceInDown">
-    </div>
+        <div class="wrap post-logo">
+            <img src="{{ site.url }}/images/{{ page.logo }}" width="200" height="200" alt="" class="animated bounceInDown">
+        </div>
     {% endif %}
-</header><!-- /.masthead -->
-{% else %}<header class="masthead">
+{% else %}
     <div class="wrap">
         {% if page.logo != null %}
-        <a href="{{ site.url }}" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ page.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated fadeInUp"></a>
+            <a href="{{ site.url }}" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ page.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated fadeInUp"></a>
         {% endif %}
         <h1 class="site-title animated fadeIn"><a href="{{ site.url }}">{{ site.title }}</a></h1>
-    <h2 class="site-description animated fadeIn" itemprop="description">{{ site.description }}</h2>
+        <h2 class="site-description animated fadeIn" itemprop="description">{{ site.description }}</h2>
     </div>
-</header><!-- /.masthead -->{% endif %}
+{% endif %}
+</header><!-- /.masthead -->
 
 <div class="js-menu-screen menu-screen"></div>
