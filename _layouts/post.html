@@ -37,17 +37,6 @@
         <span class="entry-date date published"><time datetime="{{ page.date | date_to_xmlschema }}"><i class="fa fa-calendar-o"></i> {{ page.date | date: "%B %d, %Y" }}</time></span>
         {% if page.modified %}<span class="entry-date date modified"><time datetime="{{ page.modified }}"><i class="fa fa-pencil"></i> {{ page.modified | date: "%B %d, %Y" }}</time></span>{% endif %}
         {% if site.owner.disqus-shortname and page.comments == true %}<span class="entry-comments"><i class="fa fa-comment-o"></i> <a href="#disqus_thread">Comment</a></span>{% endif %}
-        {% assign lang_count = site.posts | where:"name", page.name %}
-        {% if lang_count.size == 2 %}
-          <span>
-              {% capture lang_suffix %}{% if page.lang == 'en' %}pt{% else %}en{% endif %}{% endcapture %}
-              {% capture lang_label %}{% if page.lang == 'en' %}ver em português{% else %}read in english{% endif %}{% endcapture %}
-              {% assign switch_lang_url = page.url | replace_first: page.lang, lang_suffix %}
-              <a href="{{ switch_lang_url }}">
-                <img src="{{ site.url }}/images/ico-lang_{{ lang_suffix }}.png">&nbsp;&nbsp;{{ lang_label }}
-              </a>
-          </span>
-        {% endif %}
         {% if page.share %}
         <span class="social-share-twitter">
           <a href="https://twitter.com/intent/tweet?hashtags={{ page.tags | join: ',' | remove: ' ' }}&text={{ page.title | escape | replace:' ','%20' }}&url={{ site.url }}{{ page.url }}{% if author.twitter %}&via={{ author.twitter }}{% endif %}" title="Share on Twitter" itemprop="Twitter"><i class="fa fa-twitter-square"></i> Tweet</a>

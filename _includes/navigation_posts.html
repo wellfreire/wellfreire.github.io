@@ -10,17 +10,20 @@
                 <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
             {% endfor %}
             {% if site.search %}<li class="dosearch"><span><i class="fa fa-search"></i> Search</span></li>{% endif %}
-
-<!--             {% assign lang_count = site.posts | where:"name", page.name %}
-            {% if lang_count.size == 2 %}
-                {% capture lang_suffix %}{% if page.lang == 'en' %}pt{% else %}en{% endif %}{% endcapture %}
-                {% capture lang_label %}{% if page.lang == 'en' %}ver em português{% else %}read in english{% endif %}{% endcapture %}
-                {% assign switch_lang_url = page.url | replace_first: page.lang, lang_suffix %}
-                <a href="{{ switch_lang_url }}">
-                  <img src="{{ site.url }}/images/ico-lang_{{ lang_suffix }}.png">&nbsp;&nbsp;{{ lang_label }}
-                </a>
-            {% endif %} -->
         </ul>
+        {% assign lang_count = site.posts | where:"name", page.name %}
+        {% if lang_count.size == 2 %}
+            <ul class="lang-switch">
+                <li>
+                    {% capture lang_suffix %}{% if page.lang == 'en' %}pt{% else %}en{% endif %}{% endcapture %}
+                    {% capture lang_label %}{% if page.lang == 'en' %}ver em português{% else %}read in english{% endif %}{% endcapture %}
+                    {% assign switch_lang_url = page.url | replace_first: page.lang, lang_suffix %}
+                    <a href="{{ switch_lang_url }}">
+                        <img src="{{ site.url }}/images/ico-lang_{{ lang_suffix }}.png">&nbsp;&nbsp;{{ lang_label }}
+                    </a>
+                </li>
+            </ul>
+        {% endif %}
     </nav>
 </div><!-- /.navigation-wrapper -->
 
