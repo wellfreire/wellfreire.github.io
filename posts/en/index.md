@@ -9,4 +9,4 @@ excerpt: "An archive of blog posts sorted by date."
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/ -->
 ---
 
-{% include browser-upgrade.html %}
+{% include posts.html %}
