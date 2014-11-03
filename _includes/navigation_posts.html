@@ -1,6 +1,13 @@
 <div class="navigation-wrapper">
     <nav role="navigation" id="site-nav" class="animated drop">
         <ul>
+            {% if page.lang == 'en' %}
+                {%  assign home_url = '/en/' %}
+            {% else %}
+                {%  assign home_url = '/pt/' %}
+            {% endif %}
+            <li><a href="{{ domain }}{{ home_url }}">home</a></li>
+
             {% for link in site.data.navigation %}
                 {% if link.url contains 'http' %}
                     {% assign domain = '' %}
