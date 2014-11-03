@@ -16,6 +16,11 @@
                 {% capture lang_suffix %}{% if page.lang == 'en' %}pt{% else %}en{% endif %}{% endcapture %}
                 {% assign switch_lang_url = page.dir | replace_first: page_lang, lang_suffix %}
                 {% capture lang_label %}{% if page.lang == 'en' %}ver em português{% else %}read in english{% endif %}{% endcapture %}
+
+                {% if switch_lang_url == '/' and page.dir == '/' %}
+                    {% assign switch_lang_url = '/pt' %}
+                {% endif %}
+
                 <a href="{{ switch_lang_url }}">
                     <img src="{{ site.url }}/images/ico-lang_{{ lang_suffix }}.png">&nbsp;&nbsp;{{ lang_label }}
                 </a>

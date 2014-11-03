@@ -2,13 +2,13 @@
 
 title: Well Freire
 subtitle: Web-Based Archive
-locale: pt_BR
-timezone: America/Sao_Paulo
 description:
   en: from simple web echo to infinity o_O
   pt: de simples eco ao infinito o_O
 logo: bio-photo.jpg
 search: true
+locale: pt_BR
+timezone: America/Sao_Paulo
 url: 
 
 
