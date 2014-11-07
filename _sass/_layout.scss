@@ -124,6 +124,7 @@ body {
 // --------------------------------------------------
 
 .masthead {
+	border-bottom: 1px solid #ccc;
 	margin-top: 40px;
 	@include clearfix;
 	@include media($medium) {
@@ -170,15 +171,14 @@ body {
 	@include animation-duration(1s);
     @include animation-delay(.75s);
 	a { 
-		color: $site-title-color;
+		color: $main-title-color;
 
 		&.subtitle {
-			color: $site-subtitle-color;
+			color: $sub-title-color;
 		}
 	}
 }
 .site-description {
-	color: $site-description-color;
 	margin-top: 0;
 	font-family: $alt-font;
 	@include font-size(16);
@@ -301,6 +301,9 @@ span + .entry-title {
 		&:hover {
 			border-bottom-style: solid;
 		}
+	}
+	h1 {
+		color: $main-title-color;
 	}
 }
 .post-list {
