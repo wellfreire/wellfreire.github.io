@@ -1,0 +1,15 @@
+{% capture edit_url %}https://github.com/wellfreire/wellfreire.github.io/edit/master/_posts{{ page.url }}{% endcapture %}
+
+<div id="edit-this-post">
+    {% if page.lang == 'en' %}
+
+            <b>Wanna edit this post?</b>
+            If you found any typo or would like to contribute by correcting or appending some content to this post, feel free to <a href="{{ edit_url }}" target="_blank">fork and make a pull request</a>. Thanks for your help!
+
+    {% else %}
+
+            <b>Deseja editar este post?</b>
+            Se você encontrou algum erro de digitação ou gostaria de contribuir corrigindo ou adicionando algum conteúdo neste post, fique à vontade para <a href="{{ edit_url }}" target="_blank">fazer um <i>pull request</i></a>. Muito obrigado pela sua ajuda!
+
+    {% endif %}
+</div>

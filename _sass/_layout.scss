@@ -494,3 +494,17 @@ span + .entry-title {
 #goog-wm-sb {
 	@extend .btn;
 }
+
+#edit-this-post {
+	border: 1px solid #9c0;
+	border-radius: $border-radius;
+	background: #f7ffe0;
+
+	padding: 10px;
+
+	a {
+		color: $sub-title-color;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+}

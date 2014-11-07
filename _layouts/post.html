@@ -53,6 +53,11 @@
       </footer>
       <div class="entry-content">
         {{ content }}
+
+        {% if page.editable %}
+          {% include edit_this_post.html %}
+        {% endif %}
+
         {% if site.owner.disqus-shortname and page.comments == true %}<div id="disqus_thread"></div><!-- /#disqus_thread -->{% endif %}
       </div><!-- /.entry-content -->
     </div><!-- /.entry-wrapper -->
