@@ -8,12 +8,12 @@ title: Who? Where? How it feeds?
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/ -->
 ---
 
-- [About Me](#about_me)
-- [About This Blog](#about_blog)
+- [About me](#about_me)
+- [About this blog](#about_blog)
 
 #<a name="about_me"></a>About Me
 
-Hi, I'm **Well**(ington) **Freire**, currently a 29-year-old Web Developer based at Sao Paulo, Brazil, working at [**Tricae**](http://www.tricae.com.br){:target="_blank"}, a [Rocket Internet](https://www.rocket-internet.com){:target="_blank"} e-commerce company.
+Hi, I'm **Well**[ington] **Freire**, currently a 29-year-old Web Developer based at Sao Paulo, Brazil, working at [**Tricae**](http://www.tricae.com.br){:target="_blank"}, a [Rocket Internet](https://www.rocket-internet.com){:target="_blank"} e-commerce company.
 
 ###Web developer
 
@@ -27,7 +27,7 @@ Beyond that, my interests on software development go through a range of other to
 
 - **Best Practices**: I really appreciate the study and application of best practices for developing. It's kind of a cliche repeating about that, but is for sure a cliche that is worth being echoed. In a day-to-day routine is quite easy to forget about some good guidelines. Therefore, trying to keep this flame alive is such a challenge, mainly when working within a team -- that I believe it's the reality of the majority of us. Thus, I really think this is a topic that deserves highlight as a study area, even seeming so obvious.
 
-- **REST APIs**: Although this is one of the biggest buzz words in the last years among developers, IMHO REST is a topic that deserves as much buzzing as necessary in order to achieve the attention it needs to. I really believe that this is more than a fashion theme and should be faced as first-class subject for anyone working with web development.
+- **REST**: Although this is one of the biggest buzz words in the last years among developers, IMHO REST is a topic that deserves as much buzzing as necessary in order to achieve the attention it needs to. I really believe that this is more than a fashion theme and should be faced as first-class subject for anyone working with web development.
 
 - **Other languages**: I have already learned a bit on Java (mainly applied for Android) and Ruby (with Rails 3), besides a little bit on C (as part of university curriculum) and C++ (more recent on an attempt for not being completely analphabet on it). But more recently -- once PHP already serves me very well for my prime working platform, the Web --, I'm very interested on learning another completely different programming language, inclusive by changing from the comfort zone of the widespread OO paradigm and going into a completly new one. As part of this shifting interest the functional paradigm has been the main focus, where I'm trying to grasp some general concepts and elect a language for going deeper (very soon I wanna post something about it).
 
@@ -43,13 +43,13 @@ Living here is kind of amazing and terrible at same time, as might be in whereve
 
 #<a name="about_blog"></a>About This Blog
 
-If you just passed the eyes through the paragraphs above I'm sure you realized what this blog is about. Yep! This *web log* is intended (as its title hints) to be a web-based archive for all sort of subjects on programming.
+If you only passed the eyes through the paragraphs above I'm sure you realized what this blog is about. Yep! This *web log* is intended (as its title hints) to be a web-based archive for all sort of subjects on programming.
 
-However, I do not intend to be innovative and high productive on contents and fresh new posts. Primarily, as hinted also by the highlighted term "web log", I just wanted a place for annotating and archiving some ideas and outcomes of my studies. If this material can help some people on learning something, or even being bootstraped about some subject, I will be very glad.
+However, I do not intend to be innovative and high productive on contents and fresh new posts. Primarily, as hinted also by the highlighted term "web log", I just wanted a place for annotating and archiving some ideas and outcomes of my studies. If this material can help some people on learning something, or even being bootstrapped about some subject, I will be very glad.
 
 ###Editable Posts
 
-When reading [William Durand](http://williamdurand.fr/){:target="_blank"}'s blog I liked a lot of the editing feature he has made avaible for blog posts, simply by making a pull request -- since the blog is a GitHub public repository. Thus, as an OpenSource enthusiast I decided to replicate this idea here at my blog. Therefore, feel free to make a PR and edit this blog's posts whenever you find it fair.
+When reading [William Durand](http://williamdurand.fr/){:target="_blank"}'s blog I liked a lot of the editing feature he has made available for blog posts, simply by making a pull request -- since the blog is a GitHub public repository. Thus, as an Open Source enthusiast I decided to replicate this idea here at my blog. Therefore, feel free to make a PR and edit this blog's posts whenever you find it fair.
 
 ---
 
