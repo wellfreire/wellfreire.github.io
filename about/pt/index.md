@@ -2,6 +2,7 @@
 layout: page
 lang: pt
 title: Quem é? Onde vive? Do quê se alimenta?
+logo: bio-photo.jpg
 <!-- image:
   feature: so-simple-sample-image-4.jpg
   credit: WeGraphics

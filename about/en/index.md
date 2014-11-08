@@ -2,6 +2,7 @@
 layout: page
 lang: en
 title: Who? Where? How it feeds?
+logo: bio-photo.jpg
 <!-- image:
   feature: so-simple-sample-image-4.jpg
   credit: WeGraphics
