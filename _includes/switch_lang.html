@@ -1,0 +1,29 @@
+{% capture switch_lang %}{% if page.lang == 'en' %}pt{% else %}en{% endif %}{% endcapture %}
+
+{% if page.layout == 'page' %}
+    {% assign switch_lang_url = page.dir | replace_first: page_lang, switch_lang %}
+
+    {% if switch_lang_url == '/' and page.dir == '/' %}
+        {% assign switch_lang_url = '/pt' %}
+    {% endif %}
+{% else %}
+    {% assign same_name_posts = site.posts | where:"name", page.name %}
+    {% if same_name_posts.size == 2 %}
+        {% for _post in same_name_posts %}
+            {% if _post.lang == switch_lang %}
+                {% capture switch_lang_url %}{{ _post.url }}{% endcapture %}
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+{% endif %}
+
+{% if switch_lang_url %}
+    {% capture lang_label %}{% if page.lang == 'en' %}ver em português{% else %}read in english{% endif %}{% endcapture %}
+    <ul class="lang-switch">
+        <li>
+            <a href="{{ switch_lang_url }}">
+                <img src="{{ site.url }}/images/ico-lang_{{ switch_lang }}.png">&nbsp;&nbsp;{{ lang_label }}
+            </a>
+        </li>
+    </ul>
+{% endif %}
