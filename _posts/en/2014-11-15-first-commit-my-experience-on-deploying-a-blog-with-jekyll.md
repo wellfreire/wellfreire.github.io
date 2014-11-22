@@ -16,7 +16,7 @@ editable: true
 
 #I choose you, Jekyll!
 
-As my very first post, talking about my experience on deploying a blog on top of Jekyll seems a fair good choice. However, as many others have already done that, I will not take too much time detailing that step-by-step -- once there is already [a lot of good content](https://www.google.com.br/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=how%20to%20install%20jekyll){:target="_blank"} about that out there, and because I am a [DRY](http://en.wikipedia.org/wiki/Don't_repeat_yourself){:target="_blank"} enthusiast (as a broader concept too). Instead, I will only highlight some points I find interesting, mainly about turning the blog into multilingual (actually, only bilingual :P).
+As my very first post, talking about my experience on deploying a blog on top of Jekyll seems a fair good choice. However, as many others have already done that, I will not take too much time detailing that step-by-step -- once there is already [a lot of good content](https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=how%20to%20install%20jekyll){:target="_blank"} about that out there, and because I am a [DRY](http://en.wikipedia.org/wiki/Don't_repeat_yourself){:target="_blank"} enthusiast (as a broader concept too). Instead, I will only highlight some points I find interesting, mainly about turning the blog into multilingual (actually, only bilingual :P).
 
 First of all, if you have never heard about [**Jekyll**](http://jekyllrb.com/){:target="_blank"} -- not the one of [Jekyll and Hyde](http://en.wikipedia.org/wiki/Strange_Case_of_Dr_Jekyll_and_Mr_Hyde){:target="_blank"}, as the image above playfully illustrates --, it is basically an engine that transforms some plain text into a static site or blog.
 
@@ -26,11 +26,9 @@ Jekyll is build up as a Ruby *gem*, which makes it easy to install, especially i
 
 The very first attractive of Jekyll over me was knowing about its native integration with [GitHub Pages](https://pages.github.com/){:target="_blank"}. If you do not know, GitHub has a free hosting service for project/personal pages. The only thing you have to do is follow some conventions -- for instance, repository and branch names -- and then you get a free hosted static site (or blog) out of the box. Follow the highlighted link above and read a bit more about that (or refer to Jekyll's [documentation](http://jekyllrb.com/docs/github-pages/){:target="_blank"} on this topic).
 
-
-
 #The themes
 
-The first thing I did when decided to use Jekyll was looking for a suitable theme from its [catalog](https://github.com/jekyll/jekyll/wiki/Themes){:target="_blank"}. I went through all the themes in that list and picked up the [So Simple](https://github.com/mmistakes/so-simple-theme){:target="_blank"} as my starting point. In this particular case, I simply got a copy from themes repository on GitHub and then customized it for my needs.
+The first thing I did when decided to use Jekyll was looking for a suitable theme from its [catalog](https://github.com/jekyll/jekyll/wiki/Themes){:target="_blank"}. I went through all the themes in that list and picked up the [So Simple](https://github.com/mmistakes/so-simple-theme){:target="_blank"} as my starting point. In this particular case, I simply got a copy from the theme's repository on GitHub and then customized it for my needs.
 
 I changed things such:
 
@@ -137,7 +135,7 @@ permalink:   /:categories/:title/
 
 ####4th. Filtering posts by language
 
-When we access the page that lists posts, ideally we want to show only the posts for the language that the reader is interest -- the current page language. This is done by hacking the logic for listing posts and adding a condition that verifies the post language. In the page containing that logic -- for this blog, the page is <code>posts</code> itself, and the code is in a include file used both by <code>/posts/en/index.md</code> and by <code>/posts/pt/index.md</code> -- we need to dp something like:
+When we access the page that lists posts, ideally we want to show only the posts for the language that the reader is interest -- the current page language. This is done by hacking the logic for listing posts and adding a condition that verifies the post language. In the page containing that logic -- for this blog, the page is <code>posts</code> itself, and the code is in a include file used both by <code>/posts/en/index.md</code> and by <code>/posts/pt/index.md</code> -- we need to do something like:
 
 {% highlight liquid %}
 # _includes/posts.html
@@ -151,7 +149,7 @@ When we access the page that lists posts, ideally we want to show only the posts
 
 {% endhighlight %}
 
-Note that before we iterate through all posts, we assign <code>site.posts</code> to a new <code>post</code> variable using tha current <code>page.lang</code> as a filtering condition. That way, only the posts in the current page's language will be listed.
+Note that, before we iterate through all posts, we assign <code>site.posts</code> to a new <code>posts</code> variable using the current <code>page.lang</code> as a filtering condition. That way, only the posts in the current page's language will be listed.
 
 Thus, a similar solution can be used whenever we need to filter current page content according to its language.
 
@@ -214,7 +212,7 @@ This blog has English as its default language. So, what happens if someone wants
 
 {{ "{% else "}}%}
 
-    # here we filter the posts whose name is the same as the current one
+    # here we obtain the posts whose name is the same as the current one
     {{ "{% assign same_name_posts = site.posts | where:'name', page.name "}}%}
 
     # we assign a switch_url only if we have a translation for this post
@@ -228,7 +226,7 @@ This blog has English as its default language. So, what happens if someone wants
 
 {{ "{% endif "}}%}
 
-# if the current page (or post) has a translation in the other language, we show the switch button
+# if the current page (or post) has a translation, we show the switch button
 {{ "{% if switch_lang_url "}}%}
     {{ "{% capture lang_label "}}%}{{ "{% if page.lang == 'en' "}}%}ver em português{{ "{% else "}}%}read in english{{ "{% endif "}}%}{{ "{% endcapture "}}%}
     <ul class="lang-switch">
