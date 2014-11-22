@@ -9,7 +9,7 @@
   {% assign count = tags | split:',' %}
 
   {% if count.size > 0 %}
-    <li><a href="#{{ this_word }}">{{ this_word }} <span>{{ site.tags[this_word].size }}</span></a></li>
+    <li><a href="#{{ this_word }}">{{ this_word }} <span>{{ count.size }}</span></a></li>
   {% endif %}
   {% endunless %}{% endfor %}
 </ul>
