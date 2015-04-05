@@ -51,7 +51,7 @@ Na verdade, existem alguns plugins que prometem fazer o trabalho sujo de maneira
 
 - A diretiva de  *safe mode* do GitHub Pages tem alguma coisa contra o uso de plugins. Admito que não fui pesquisar muito a fundo sobre o assunto, mas me pareceu um "boa" parte ruim, mesmo que seja possível contornar isso.
 
-Assim, principalmente depois de dar uma olhada no [post](http://sylvain.durand.tf/making-jekyll-multilingual/){:target="_blank"} do Sylvain Durand, eu tomei coragem e decidi fazer por conta própria o Jekyll aceitar mais de uma língua.
+Assim, principalmente depois de dar uma olhada no [post](http://sylvaindurand.org/making-jekyll-multilingual/){:target="_blank"} do Sylvain Durand, eu tomei coragem e decidi fazer por conta própria o Jekyll aceitar mais de uma língua.
 
 ###Minha meia-solução
 
