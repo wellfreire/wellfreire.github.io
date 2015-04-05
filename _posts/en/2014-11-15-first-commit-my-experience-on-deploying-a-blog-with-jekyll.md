@@ -52,7 +52,7 @@ Actually, there are some plugins that promise to do the job with no pain for you
 
 - The GitHub Pages *safe mode* directive has something to do against the use of these plugins. I have to admit I did not searched more about that, but it seemed as a bad downside, even if it is possible to hack this.
 
-So, especially after going through [Sylvain Durand](http://sylvain.durand.tf/making-jekyll-multilingual/){:target="_blank"}'s post, I got courageous and decided to turn Jekyll into multilingual all by myself.
+So, especially after going through [Sylvain Durand](http://sylvaindurand.org/making-jekyll-multilingual/){:target="_blank"}'s post, I got courageous and decided to turn Jekyll into multilingual all by myself.
 
 ###My half solution
 
