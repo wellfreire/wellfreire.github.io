@@ -11,11 +11,13 @@ logo: bio-photo.jpg
 
 #<a name="about_me"></a>About Me
 
-I'm **Well**[ington] **Freire**, a Web Developer based at Sao Paulo, Brazil, currently working at [**Tricae**](http://www.tricae.com.br){:target="_blank"}, a [Rocket Internet](https://www.rocket-internet.com){:target="_blank"} e-commerce company.
+I'm **Well**[ington] **Freire**, a software developer based at Sao Paulo, Brazil, currently working at [**Tricae**](http://www.tricae.com.br){:target="_blank"}, a [Rocket Internet](https://www.rocket-internet.com){:target="_blank"} e-commerce company.
 
-###Web developer
+###Developer
 
-I work professionally with web development since the beginning of 2012, when I finally decided to completely switch my professional career to become a programmer -- the thing that I really loves to do.
+I have no problems with the *programmer* title, but I like more being a *developer* since, in my opinion, it better translates the fact that we are not just *code writers*.
+
+I work professionally with development since the beginning of 2012, when I finally decided to completely switch my professional career to do the thing I really loves to do.
 
 Currently, I'm very focused on evolving my skills in design and software architecture, mainly by going deep into [**Domain Driven Design**](/tags/en/#ddd) -- and the plethora of good practices and tools arround it.
 

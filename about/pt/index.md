@@ -11,11 +11,13 @@ logo: bio-photo.jpg
 
 #<a name="about_me"></a>Sobre mim
 
-Meu nome é **Well**[ington] **Freire**, desenvolvedor web que mora em São Paulo, atualmente trabalhando na [**Tricae**](http://www.tricae.com.br){:target="_blank"}, uma loja virtual do grupo [Rocket Internet](https://www.rocket-internet.com){:target="_blank"}.
+Meu nome é **Well**[ington] **Freire**, desenvolvedor de software que mora em São Paulo, atualmente trabalhando na [**Tricae**](http://www.tricae.com.br){:target="_blank"}, uma loja virtual do grupo [Rocket Internet](https://www.rocket-internet.com){:target="_blank"}.
 
-###Desenvolvedor Web
+###Desenvolvedor
 
-Eu trabalho profissionalmente com desenvolvimento web desde o início de 2012, quando eu finalmente decidi mudar completamente de profissão e me tornar programador -- que é o que realmente tenho paixão em fazer.
+Não tenho problema nenhum com o título de *programador*, mas gosto mais de *desenvolvedor* pois, na minha opinião, traduz melhor o fato de que não somos apenas *escrevedores de código*.
+
+Trabalho profissionalmente com desenvolvimento desde o início de 2012, quando eu finalmente decidi mudar completamente de profissão e fazer o que realmente tenho paixão em fazer.
 
 Atualmente, estou bastante focado em evoluir minhas habilidades em design e arquitetura de software, principalmente estudando mais a fundo [**Domain Driven Design**](/tags/pt/#ddd) -- e a grande quantidade de boas práticas e ferramentas em torno do assunto.
 
