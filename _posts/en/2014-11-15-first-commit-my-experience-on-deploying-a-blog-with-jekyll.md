@@ -8,6 +8,8 @@ categories: en
 tags: [jekyll]
 image:
   feature: jekyll_poster.jpg
+  credit: wikipedia
+  creditlink: http://upload.wikimedia.org/wikipedia/commons/7/78/Dr_Jekyll_and_Mr_Hyde_poster_edit2.jpg
 logo: jekyll_logo.jpg
 share: true
 comments: true

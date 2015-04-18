@@ -19,9 +19,9 @@ Não tenho problema nenhum com o título de *programador*, mas gosto mais de *de
 
 Trabalho profissionalmente com desenvolvimento desde o início de 2012, quando eu finalmente decidi mudar completamente de profissão e fazer o que realmente tenho paixão em fazer.
 
-Atualmente, estou bastante focado em evoluir minhas habilidades em design e arquitetura de software, principalmente estudando mais a fundo [**Domain Driven Design**](/tags/pt/#ddd) -- e a grande quantidade de boas práticas e ferramentas em torno do assunto.
+Atualmente, estou bastante focado em evoluir minhas habilidades em design e arquitetura de software, principalmente estudando mais a fundo [**Domain-Driven Design**](/pt/ddd){:target="_blank"} -- e a grande quantidade de boas práticas e ferramentas em torno do assunto.
 
-Além disso, meus interesses na área de desenvolvimento de software passam por uma diversidade de outros tópicos, com destaque para [**Design Orientado à Objetos**](/tags/pt/#oop), [**boas práticas**](/tags/pt/#boas-praticas), [**REST**](/tags/pt/#rest) e outras [**linguagens de programação**](/tags/pt/#linguagens-de-programacao).
+Além disso, meus interesses na área de desenvolvimento de software passam por uma diversidade de outros tópicos, com destaque para [**programação orientada à objetos**](/pt/oop){:target="_blank"}, [**boas práticas**](/pt/best-practices){:target="_blank"}, [**REST**](/pt/rest){:target="_blank"} e outras [**linguagens de programação**](/pt/programming-languages){:target="_blank"}.
 
 Na *Tricae*, meu trabalho principal atualmente, sou essencialmente um desenvolvedor *full-stack* trabalhando em conjunto com o restante do time para manter e desenvolver novas funcionalidades para o nosso *e-commerce*.
 

@@ -19,9 +19,9 @@ I have no problems with the *programmer* title, but I like more being a *develop
 
 I work professionally with development since the beginning of 2012, when I finally decided to completely switch my professional career to do the thing I really loves to do.
 
-Currently, I'm very focused on evolving my skills in design and software architecture, mainly by going deep into [**Domain Driven Design**](/tags/en/#ddd) -- and the plethora of good practices and tools arround it.
+Currently, I'm very focused on evolving my skills in design and software architecture, mainly by going deep into [**Domain-Driven Design**](/en/ddd){:target="_blank"} -- and the plethora of good practices and tools arround it.
 
-Beyond that, my interests on software development go through a range of other topics, with special highlight for [**Object Oriented Design**](/tags/en/#ood), [**best practices**](/tags/en/#best-practices), [**REST**](/tags/en/#rest) and other [**programming languages**](/tags/en/#programming-languages).
+Beyond that, my interests on software development go through a range of other topics, with special highlight for [**object-oriented programming**](/en/oop){:target="_blank"}, [**best practices**](/en/best-practices){:target="_blank"}, [**REST**](/en/rest){:target="_blank"} and other [**programming languages**](/en/programming-languages){:target="_blank"}.
 
 At *Tricae*, my current main job, I am essencially a full-stack developer working beside the rest of the team for mantaining and developing new features for our e-commerce application.
 
