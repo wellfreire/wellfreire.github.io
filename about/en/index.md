@@ -11,7 +11,7 @@ logo: bio-photo.jpg
 
 #<a name="about_me"></a>About Me
 
-I'm **Well**[ington] **Freire**, a software developer based at Sao Paulo, Brazil, currently working at [**Tricae**](http://www.tricae.com.br){:target="_blank"}, a [Rocket Internet](https://www.rocket-internet.com){:target="_blank"} e-commerce company.
+I'm **Well**[ington] **Freire**, a software developer based at Sao Paulo, Brazil, currently working at [**Hypnobox**](http://www.hypnobox.com.br){:target="_blank"}, a CRM tool for the Real Estate market.
 
 ###Developer
 

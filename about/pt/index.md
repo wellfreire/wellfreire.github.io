@@ -11,7 +11,7 @@ logo: bio-photo.jpg
 
 #<a name="about_me"></a>Sobre mim
 
-Meu nome é **Well**[ington] **Freire**, desenvolvedor de software que mora em São Paulo, atualmente trabalhando na [**Tricae**](http://www.tricae.com.br){:target="_blank"}, uma loja virtual do grupo [Rocket Internet](https://www.rocket-internet.com){:target="_blank"}.
+Meu nome é **Well**[ington] **Freire**, desenvolvedor de software que mora em São Paulo, atualmente trabalhando na [**Hypnobox**](http://www.hypnobox.com.br){:target="_blank"}, uma ferramenta de CRM voltada ao mercado imobiliário.
 
 ###Desenvolvedor
 
