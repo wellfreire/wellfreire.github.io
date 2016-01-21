@@ -11,25 +11,15 @@ logo: bio-photo.jpg
 
 #<a name="about_me"></a>Sobre mim
 
-Meu nome é **Well**[ington] **Freire**, desenvolvedor de software que mora em São Paulo, atualmente trabalhando na [**Hypnobox**](http://www.hypnobox.com.br){:target="_blank"}, uma ferramenta de CRM voltada ao mercado imobiliário.
+Olá! Meu nome é **Wellington Freire**, desenvolvedor de software morando em São Paulo. Eu trabalho profissionalmente com desenvolvimento desde o início de 2012, quando eu decidi mudar completamente de carreira e fazer o que realmente amo fazer.
 
-###Desenvolvedor
+Atualmente estou bastante focado em melhorar meus conhecimentos em *design* e arquitetura de software, principalmente estudando mais a fundo **Domain-Driven Design** --  e a enorme quantidade de boas práticas e ferramentas em torno do assunto.
 
-Não tenho problema nenhum com o título de *programador*, mas gosto mais de *desenvolvedor* pois, na minha opinião, traduz melhor o fato de que não somos apenas *escrevedores de código*.
-
-Trabalho profissionalmente com desenvolvimento desde o início de 2012, quando eu finalmente decidi mudar completamente de profissão e fazer o que realmente tenho paixão em fazer.
-
-Atualmente, estou bastante focado em evoluir minhas habilidades em design e arquitetura de software, principalmente estudando mais a fundo [**Domain-Driven Design**](/pt/ddd){:target="_blank"} -- e a grande quantidade de boas práticas e ferramentas em torno do assunto.
-
-Além disso, meus interesses na área de desenvolvimento de software passam por uma diversidade de outros tópicos, com destaque para [**programação orientada à objetos**](/pt/oop){:target="_blank"}, [**boas práticas**](/pt/best-practices){:target="_blank"}, [**REST**](/pt/rest){:target="_blank"} e outras [**linguagens de programação**](/pt/programming-languages){:target="_blank"}.
-
-Na *Tricae*, meu trabalho principal atualmente, sou essencialmente um desenvolvedor *full-stack* trabalhando em conjunto com o restante do time para manter e desenvolver novas funcionalidades para o nosso *e-commerce*.
+Além disso, meus interesses na área de desenvolvimento de software passam por uma diversidade de outros tópicos, com destaque para **programação orientada à objetos**, **boas práticas** e outras **linguagens de programação**.
 
 #<a name="about_blog"></a>Sobre o Blog
 
-Este *web log* tem a intenção (como o próprio título indica) de ser um arquivo na web de todos os textos e anotações sobre quaisquer assuntos de interesse. Eu sempre tive uma certa dificuldade para manter junto minhas anotações, rascunhos de ideias, links favoritos e todo esse tipo de coisas que vez ou outra eu gostaria de poder consultar de maneira fácil ou mesmo compartilhar com outras pessoas. Então, eu me dei conta que isso poderia ser feito unindo os conceitos de arquivo e blog.
-
-Assim, eu tenho a possibilidade de simplesmente registrar alguma nota qualquer, bem como um *post* ou artigo melhor formatado. Entretanto, eu não pretendo ser invovador e altamente produtivo com conteúdo e posts frequentes. Inicialmente, este é apenas um lugar para anotações e depósito de ideias e resultados de meus estudos. No entanto, se este material puder ajudar alguém no aprendizado de algo, com certeza ficarei bastante contente.
+Este *web log* é destinado (conforme o próprio título indica) a ser um arquivo na web de todos os textos e anotações sobre quaisquer assuntos de interesse. Assim, eu tenho a possibilidade de simplesmente registrar alguma nota qualquer, bem como um *post* ou um artigo mais bem formatado. Entretanto, eu não pretendo ser invovador e altamente produtivo com conteúdo e posts frequentes. Inicialmente, este é apenas um lugar para anotações e depósito de ideias e resultados de meus estudos.
 
 ###Posts editáveis
 
